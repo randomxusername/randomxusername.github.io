@@ -1,0 +1,39 @@
+* {
+color: black;
+background: transparent;
+font-size: 12pt;
+font-family: serif;
+}
+
+@page {
+margin: .5in;
+}
+
+address {
+  text-align: center;
+  line-height: 7px;
+}
+
+h1, h2, h3, h4 {
+  /*...?*/
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+nav {
+  display: none;
+}
+
+a,
+a {
+  color: rgb(37,101,50);
+}
+a:visited {
+  color: rgb(32,126,155);
+}
