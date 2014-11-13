@@ -11,7 +11,6 @@ margin: .5in;
 
 address {
   text-align: center;
-  line-height: 7px;
 }
 
 h1, h2, h3, h4 {
@@ -22,8 +21,8 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  margin-top: 40px;
+p {
+  margin: 0;
 }
 
 nav {
@@ -31,9 +30,4 @@ nav {
 }
 
 a,
-a {
-  color: rgb(37,101,50);
-}
-a:visited {
-  color: rgb(32,126,155);
-}
+a[href^="http://"]:after { content: " (" attr(href) ") "; }

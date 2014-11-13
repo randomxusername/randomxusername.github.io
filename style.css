@@ -2,7 +2,7 @@
 
 body {
   color: purple;
-  background: lightblue;
+  background: rgb(177,239,249);
   font-size: 16px;
   margin: 80px;
   font-family: 'Raleway', sans-serif;
@@ -10,7 +10,6 @@ body {
 
 address {
   text-align: center;
-  line-height: 7px;
 }
 
 h1, h2, h3, h4 {
@@ -23,6 +22,10 @@ h1 {
 
 h2 {
   margin-top: 40px;
+}
+
+p {
+  margin: 0;
 }
 
 nav {
@@ -41,10 +44,6 @@ display: inline-block;
 margin-right: 16px;
 }
 
-a,
 a {
-  color: rgb(37,101,50);
-}
-a:visited {
   color: rgb(32,126,155);
 }
