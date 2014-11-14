@@ -8,10 +8,6 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-address {
-  text-align: center;
-}
-
 h1, h2, h3, h4 {
   font-family: 'Arvo', serif;
 }
@@ -22,6 +18,10 @@ h1 {
 
 h2 {
   margin-top: 40px;
+}
+
+address {
+  text-align: center;
 }
 
 p {

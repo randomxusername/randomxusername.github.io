@@ -9,15 +9,16 @@ font-family: serif;
 margin: .5in;
 }
 
-address {
-  text-align: center;
-}
-
 h1, h2, h3, h4 {
-  /*...?*/
+  font-family: sans-serif;
 }
 
 h1 {
+  text-align: center;
+  font-size: 16pt;
+}
+
+address {
   text-align: center;
 }
 
@@ -29,5 +30,4 @@ nav {
   display: none;
 }
 
-a,
 a[href^="http://"]:after { content: " (" attr(href) ") "; }
