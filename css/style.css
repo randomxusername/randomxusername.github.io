@@ -4,8 +4,10 @@ body {
   color: purple;
   background: rgb(177,239,249);
   font-size: 16px;
-  margin: 80px;
+  margin: 0 auto;
+  padding: 30px 0 40px 0;
   font-family: 'Raleway', sans-serif;
+  max-width: 530px;
 }
 
 h1, h2, h3, h4 {
@@ -21,17 +23,19 @@ h2 {
 }
 
 address {
-  text-align: center;
   padding: 0;
+  text-align: center;
 }
 
 p {
   margin: 0;
+  text-align: justify;
 }
 
 nav {
   margin-top: 30px;
   text-align: center;
+  width: 530px;
 }
 
 nav ul {
@@ -45,6 +49,34 @@ display: inline-block;
 margin-right: 16px;
 }
 
+ul {
+  list-style-type: square;
+}
+
+ul li {
+  padding-bottom: 4px;
+}
+
 a {
   color: rgb(32,126,155);
+}
+
+a:hover {
+  color: darkblue;
+  outline: dotted;
+  padding: 2px;
+}
+
+#about {
+  padding-top: 10px;
+}
+
+img {
+  border: 1px solid darkblue;
+  margin: 16px 0 0 125px;
+}
+
+footer {
+  border-top: 1px solid #999;
+  padding: 8px;
 }

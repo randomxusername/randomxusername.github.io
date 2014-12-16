@@ -1,0 +1,87 @@
+@media (max-width: 320px) {
+
+@import url(http://fonts.googleapis.com/css?family=Arvo|Raleway);
+
+body {
+  color: purple;
+  background: rgb(177,239,249);
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 30px 0 40px 0;
+  font-family: 'Raleway', sans-serif;
+  max-width: 530px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Arvo', serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+address {
+  padding: 0;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  text-align: justify;
+}
+
+nav {
+  margin-top: 30px;
+  text-align: center;
+  width: 530px;
+}
+
+nav ul {
+  padding: 8px;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+}
+
+nav ul li {
+display: inline-block;
+margin-right: 16px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul li {
+  padding-bottom: 4px;
+}
+
+a {
+  color: rgb(32,126,155);
+}
+
+a:hover {
+  color: darkblue;
+  outline: dotted;
+  padding: 2px;
+}
+
+#about {
+  padding-top: 10px;
+}
+
+img {
+  border: 1px solid darkblue;
+  margin-top: 16px;
+}
+
+footer {
+  border-top: 1px solid #999;
+  padding: 8px;
+}
+
+}
+<!-- end @media --!>}
